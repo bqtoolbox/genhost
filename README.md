@@ -12,14 +12,14 @@ project.
 Just run the script and provide the number of hostnames you'd like to generate:
 
     $ ./genhost 4
-    romeo.example.com
-    holiday.example.com
-    jester.example.com
-    spiral.example.com
+    romeo.avoche.com
+    holiday.avoche.com
+    jester.avoche.com
+    spiral.avoche.com
 
 All of those words will automatically be commented out in the word list and thus
 removed from the pool of future names. If a hostname has the potential to be
-confusing based on technical jargon (like `email.example.com`), simply ignore it
+confusing based on technical jargon (like `email.avoche.com`), simply ignore it
 and generate a replacement.
 
 If you decommission a server, you can return its hostname to the usable pool,
